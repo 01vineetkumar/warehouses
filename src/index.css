@@ -91,3 +91,39 @@ ul li .bottom_bar{
   display: flex;
 
 }
+
+
+@media only screen and (max-width:850px){
+
+  ul{
+    display: flex !important;
+    flex-direction: column !important;
+    width: 98% !important;
+    align-items: flex-start;
+    margin-left: -8.5%;
+    max-height: 480px;
+    overflow-y: scroll;
+  }
+  ul li{
+    width: 90%;
+  }
+  .flex-Mv{
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .controls{
+    flex-direction: column;
+    align-items: center;
+
+  }
+  .controls .flexBox{
+    width: 100%;
+    margin: 10px;
+  }
+  .searchBox{
+    width: 95%;
+    margin-left: 12.5px;
+  }
+
+}
